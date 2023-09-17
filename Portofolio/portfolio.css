@@ -1,0 +1,407 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  color: black;
+  font-weight: bold;
+  font-family: Caveat;
+}
+
+.nav-itemm {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.nav-itemm:hover {
+  text-decoration-color: orange;
+  color: white;
+  font-weight: bold;
+  text-decoration-thickness: 5px;
+}
+
+.nav-logo {
+  color: orange;
+  font-family: Caveat;
+  font-size: 18px;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.banner-section-container {
+  background-color: black;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.banner-title1 {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.banner-title2 {
+  color: white;
+  font-weight: 500;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.varsha {
+  font-size: 40px;
+  font-weight: bold;
+  color: orange;
+}
+
+.banner-description {
+  color: #9aa5b1;
+
+}
+
+.button {
+  background-color: transparent;
+  color: orange;
+  height: 50px;
+  width: 130px;
+  font-weight: 500;
+  border: 2px solid orange;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.button:hover {
+  background: radial-gradient(circle at 10% 20%, rgb(228, 118, 0) 0%, rgb(247, 189, 2) 90%);
+  color: black;
+}
+.icon-container {
+  background-color: #4a4a4a;
+  border-radius: 200px;
+  height: 30px;
+  width: 35px;
+  margin: 3px;
+  padding-top: 8px;
+  padding-right: 35px;
+  padding-left: 14px;
+  padding-bottom: 38px;
+  color: orange;
+  font-size: 24px;
+
+}
+
+.icon-container:hover {
+  background-color: orange;
+  color: black;
+}
+
+.aboutme-section-container {
+  background-color: #191a1d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutme-title {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.aboutme-head {
+  color: orange;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.aboutme-image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.aboutme-bio {
+  color: #9aa5b1;
+  font-size: 16px;
+}
+
+.skills-section-container {
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills-head {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
+.skills-container {
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-name {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.skill-percentage {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bar {
+  margin-bottom: 25px;
+  background-color: grey;
+  height: 6px;
+  width: 100%;
+  position: relative;
+
+}
+
+.bar::before {
+  content: '';
+  position: absolute;
+  background: radial-gradient(circle at 10% 20%, rgb(228, 118, 0) 0%, rgb(247, 189, 2) 90%);
+
+  height: 100%;
+}
+
+.html::before {
+  width: 90%;
+}
+
+.css::before {
+  width: 80%;
+}
+
+.js::before {
+  width: 50%;
+}
+
+.python::before {
+  width: 80%;
+}
+
+.projects-section-container {
+  background-color: #191a1d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-title {
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project-head {
+  color: #9aa5b1;
+  font-size: 20px;
+
+}
+
+.project-card {
+  background: linear-gradient(77.9deg, rgb(80, 90, 100) 3.6%, rgb(119, 127, 148) 105.8%);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.project-card:hover {
+  background: radial-gradient(circle at 10% 20%, rgb(210, 118, 0) 0%, rgb(230, 189, 2) 90%);
+  box-shadow: 10px -2px -2px 1px white,
+      10px -2px -2px 1px white;
+}
+
+.project-image {
+  border-radius: 10px;
+}
+
+.project-card-head {
+  color: white;
+  font-size: 12px;
+  font-weight: bold
+}
+
+.project-card-head:hover {
+  color: white;
+}
+
+.project-card-title {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.project-card-description {
+  color: #080808;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.project-view {
+  color: white;
+  font-weight: 600;
+}
+
+.project-view:hover {
+  color: black;
+}
+
+.services-section-container {
+  background-color: #141414;
+  font-family: "Roboto";
+}
+
+.services-heading {
+  color: orange;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.services-section-title {
+  color: #9aa5b1;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.services-card {
+  background: linear-gradient(109.6deg, rgb(255, 207, 84) 11.2%, rgb(255, 158, 27) 91.1%);
+  border-radius: 8px;
+}
+
+.services-card:hover {
+  background: linear-gradient(77.9deg, rgb(80, 90, 100) 3.6%, rgb(119, 127, 148) 105.8%);
+}
+
+.services-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.services-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 20px;
+
+}
+
+.services-description {
+  color: black;
+  font-size: 15px;
+}
+
+.contact-section-container {
+  background-color: #191a1d;
+  font-family: "Roboto";
+}
+
+.contact-head {
+  color: orange;
+  font-weight: bold;
+}
+
+.contact-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-para {
+  color: #9aa5b1;
+  font-size: 13px;
+}
+
+.message-container {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.input-container {
+  border-radius: 4px;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  border-width: 0px;
+  border-style: solid;
+}
+
+.input-containerr {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100px;
+  border-width: 0px;
+  border-style: solid;
+}
+
+.contact-msg {
+  color: #fc8712;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.message {
+  border-radius: 5px;
+}
+
+.resume {
+  background-color: transparent;
+  color: orange;
+  padding: 12px;
+  font-weight: 500;
+  border: 2px solid orange;
+  border-radius: 8px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.resume {
+  text-decoration: none;
+  text-decoration-thickness: 0px;
+}
+
+.hr-line {
+  border-color: #5a7184
+}
+
+.footer-end {
+  color: white;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-section-list {
+  list-style-type: none;
+  padding: 0px;
+}
+.w-icon {
+  color: orange;
+  font-size: 22px;
+}
+.w-iconn {
+  color: orange;
+  font-size: 22px;
+}
