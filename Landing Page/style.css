@@ -1,0 +1,189 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.title {
+    color: rgb(247, 98, 123);
+    font-family: caveat;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace
+}
+.brand-name {
+    color: black;
+    font-family:'Courier New', Courier, monospace
+}
+.icon {
+    color: b
+}
+.navbarbtn{
+    background-color: rgb(247, 113, 135) !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.nav-item{
+    color: black !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-item :hover{
+    text-decoration: underline; 
+    color: rgb(247, 78, 106) !important;
+    transition: 0.3s;
+}
+.navbarbtn:hover{
+    background-color:rgb(246, 48, 81) !important;
+    transition: 0.3s;
+   
+}
+.icon {
+    color:rgb(252, 114, 137)
+}
+.icon-container {
+    background-color: white;
+    border-radius: 200px;
+    height: 30px;
+    width: 35px;
+    margin: 3px;
+    padding-top: 8px;
+    padding-right: 35px;
+    padding-left: 14px;
+    padding-bottom: 38px;
+    color: black;
+    font-size: 24px;
+
+}
+
+.icon-container:hover {
+    background-color: white;
+    color: rgb(247, 78, 106);
+}
+
+
+/*** banner section***/
+
+.banner-section-container {
+    background-image: url("https://img.freepik.com/free-photo/slim-lady-fashionable-trousers-blouse-red-hat-is-sitting-chair-stand-with-shiny-dresses_197531-17615.jpg?w=1800&t=st=1694974189~exp=1694974789~hmac=97237b0c18f8264c841889f04dd37ea955467e6a3646a9a8f07cac7fb60ec5fd    ");
+    height: 80vh;
+    background-size: cover;
+}
+.special-offer-container-sm {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.special-offer-container-lg {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fashion-title-sm {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+.fashion-title-lg {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: black
+}
+.tag-line-sm {
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.tag-line-lg {
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.button {
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    background: radial-gradient(circle at 10% 20%, rgb(246, 98, 128) 0%, rgb(248, 129, 135) 98.3%) !important;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 1px 1px 5px 5px rgb(253, 209, 216);
+}
+.button:hover {
+    background-color: rgb(250, 35, 71) !important;
+    transition: 0.3s;
+}
+.trending-fashion-container {
+    padding: 50px;
+}
+.images {
+    height: 250px;
+    width: ;
+}
+.trending-head {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.span-element {
+    color: rgb(249, 30, 67);
+}
+
+/**collection section**/ 
+
+.collection-section-container {
+    background-color:mistyrose;
+}
+.collection-card {
+    background-color: whitesmoke;
+
+}
+.img1 {
+    width:100%;
+}
+.img2 {
+    width: 100%;
+    height: 70%;
+}
+.fashion-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.money {
+    font-size: 18px;
+    font-weight: bold;
+}
+.services-container {
+    background-color: black;
+}
+.service-icon {
+    font-size: 25px;
+    color: white
+}
+.subscribe-container {
+    background-color:rgb(246, 141, 162)
+}
+.input {
+    border-width: 1px;
+    border-style: solid;
+    height: 40px;
+    border-radius: 5px;
+}
+.contact-section {
+    background-color: rgb(251, 244, 244);
+
+}
+.w-icon {
+    color:rgb(246, 48, 81);
+    font-size: 20px;
+}
+.contact-container {
+    background-color: 
+}
